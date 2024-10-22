@@ -12,7 +12,6 @@ const port = 3000;
 connectDB();
 
 // Middleware
-//app.use(bodyParser.json());
 app.use(express.json());
 
 // Routes
